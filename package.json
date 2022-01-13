@@ -1,0 +1,16 @@
+{
+  "name": "madison-weather-bot",
+  "version": "1.0.0",
+  "description": "A Madison Weather Bot for Twitter",
+  "main": "weatherbot.js",
+  "scripts": {
+    "start": "node weatherbot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Phouisangiem",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.2",
+    "twit": "^2.2.11"
+  }
+}
