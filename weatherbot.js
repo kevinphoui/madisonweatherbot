@@ -160,20 +160,4 @@ function specialMessage() {
 }
 
 // tweets once a day
-// if utc is 15:00:00 (9am cst): tweet
-// wait 61 min to prevent constant tweeting
-/*
-var utcTime = new Date(new Date());
-var utcHour = utcTime.toUTCString().substring(17, 22);
-console.log("utcHour: " + utcHour);
-// while not 8am (14), waits
-while (utcHour != "01:10") { 
-    setInterval(console.log(utcHour), 1000 * 60);
-}
-// waits an hour then tweet (will be 9 am by then)
-//             1 sec * 60 * 61 = 1 hour and 1 minute
-console.log("Tweeting soon");
-*/
 setInterval(GetData, 1000 * 60 * 60 * 24);
-
-
